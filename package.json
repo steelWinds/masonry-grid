@@ -1,0 +1,31 @@
+{
+  "name": "masonry-grid",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest "
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@types/compute-gcd": "^1.2.3",
+    "@types/lodash-es": "^4.17.12",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.5.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vitest": "^1.1.0"
+  },
+  "dependencies": {
+    "compute-gcd": "^1.2.1",
+    "lodash-es": "^4.17.21",
+    "uuid": "^9.0.1"
+  }
+}
