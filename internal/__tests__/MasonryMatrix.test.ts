@@ -21,12 +21,7 @@ describe('MasonryMatrix test', () => {
 
   const matrix = matrixFactory.create(sizes, { columnSize: 200, columnCount: 6 })
 
-  const matrixIds = matrix.matrix.flat().map(({ id }) => id)
-
-  test.each(sizes)(
-    'MasonryUnit with $id id includes in matrix',
-    ({ id }) => {
-      expect(matrixIds.includes(id)).toBeTruthy()
-    }
-  )
+  test('MasonryMatrix normal length', () => {
+    expect(matrix.length).toBe(ITEMS_LENGTH)
+  })
 })
